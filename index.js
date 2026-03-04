@@ -1,10 +1,16 @@
 const express = require("express");
-const app = express();
+const fs = require("fs");
 
+const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Airdrop Hunter API is running 🚀");
+  res.send("🚀 Airdrop Hunter API running");
+});
+
+app.get("/airdrops", (req, res) => {
+  const data = fs.readFileSync("./data/airdrops.json");
+  res.json(JSON.parse(data));
 });
 
 app.listen(PORT, () => {
