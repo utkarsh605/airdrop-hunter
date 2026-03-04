@@ -1,0 +1,14 @@
+{
+  "name": "airdrop-hunter",
+  "version": "1.0.0",
+  "description": "A web app that finds crypto airdrops",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  }
+}
