@@ -1,0 +1,22 @@
+[
+  {
+    "name": "LayerZero",
+    "chain": "Ethereum",
+    "reward_estimate": "$500-$2000",
+    "tasks": [
+      "Bridge assets using LayerZero",
+      "Interact with supported dApps",
+      "Use Stargate bridge"
+    ]
+  },
+  {
+    "name": "ZkSync",
+    "chain": "zkSync Era",
+    "reward_estimate": "$300-$1500",
+    "tasks": [
+      "Bridge ETH to zkSync",
+      "Swap tokens on DEX",
+      "Mint NFT on zkSync"
+    ]
+  }
+]
